@@ -1,0 +1,31 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+
+# Fiscal inputs and cleaned panels stay local.
+# data/README.md is the only tracked file in data/.
+data/*
+!data/README.md
+
+# Tables regenerated from a local panel. Charts (outputs/*.png) may be tracked.
+outputs/*.csv
+
+# Unrelated Zindi competition notebook. Do not re-add.
+/zandichallenge
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
